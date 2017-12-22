@@ -12,7 +12,7 @@
  */
  define('CONFIG_CONTROLLER_ACTIVE', true);
  
- if (!function_exists('env'))
+ if (!function_exists('env') || !defined('ENV_ADAPTER_ACTIVE'))
  {
      trigger_error(
          'The `env()` function does not exist.',
