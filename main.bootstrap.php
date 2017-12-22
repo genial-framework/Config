@@ -11,9 +11,8 @@
  * @license   <https://github.com/Genial-Framework/Config/blob/master/LICENSE> New BSD License.
  */
  define('CONFIG_CONTROLLER_ACTIVE', true);
- 
- if (!function_exists('env') || !defined('ENV_ADAPTER_ACTIVE'))
- {
+
+ if (! function_exists('env') || ! defined('ENV_ADAPTER_ACTIVE')) {
      trigger_error(
          'The `env()` function does not exist.',
          E_USER_ERROR
