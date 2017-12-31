@@ -12,4 +12,4 @@ We suggest you use composer as it is quicker and easier. You can direct download
 
 ## Links
 - https://github.com/Genial-Framework/Config/issues
--
+- https://github.com/Genial-Framework/Config/tree/master/docs/book
