@@ -18,5 +18,16 @@ namespace Genial\Config\Dependent;
 interface DependentInterface
 {
     
+    /**
+     * __construct().
+     *
+     * Check to see if the env function exists.
+     *
+     * @throws RuntimeException If the env function does not exist.
+     *
+     * @return void.
+     */
+    function __construct();
+    
 }
 
